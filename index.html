@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hussein’s Shawarma | Order Shawarma, Roast Chicken, Wings &amp; Burgers</title>
+<meta name="description" content="Order chicken and beef shawarma, roast chicken plates, wings, cheeseburgers and sides from Hussein’s Shawarma. See the full menu with prices.">
+<meta name="theme-color" content="#141210">
+<!-- Social sharing previews. When you get a custom domain, update these two URLs. -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Hussein’s Shawarma">
+<meta property="og:description" content="Big Flavor. Every Bite. Shawarma, wings, burgers, and your favorite sides.">
+<meta property="og:image" content="https://dineaxisai.github.io/hussein-shawarma/images/hero.webp">
+<meta property="og:url" content="https://dineaxisai.github.io/hussein-shawarma/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&amp;family=Barlow:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="images/hero.webp">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div id="banner"></div>
+
+<header class="site-header">
+  <div class="wrap site-header__bar">
+    <a class="brand" href="#home" data-action="go-home" aria-label="Hussein’s Shawarma, home">
+      <svg class="brand__mark" viewBox="0 0 200 200" aria-hidden="true"><rect width="200" height="200" rx="44" fill="#D9884C"/><rect x="40" y="40" width="34" height="124" rx="4" fill="#141210"/><rect x="104" y="40" width="34" height="124" rx="4" fill="#141210"/><rect x="40" y="88" width="98" height="28" fill="#141210"/><path transform="translate(144 30) scale(1.6)" d="M12 0c2 6 10 10 10 19a10 10 0 0 1-20 0c0-5 3-8 5-11 0 4 2 6 4 6-1-5 0-10 1-14z" fill="#141210"/></svg>
+      <span class="wordmark" aria-hidden="true">
+        <span class="wordmark__top">Hussein<svg class="wordmark__flame" viewBox="0 0 24 32"><path d="M12 0c2 6 10 10 10 19a10 10 0 0 1-20 0c0-5 3-8 5-11 0 4 2 6 4 6-1-5 0-10 1-14z"/></svg>s</span>
+        <span class="wordmark__bottom">Shawarma</span>
+      </span>
+    </a>
+    <div class="header-actions">
+      <nav class="nav-desktop" aria-label="Main">
+        <a class="nav-link" href="#home" data-action="go-home">Home</a>
+        <a class="nav-link" href="#menu" data-action="go-menu">Menu</a>
+      </nav>
+      <button class="cart-btn" type="button" data-action="open-cart" id="cart-btn" aria-label="Your order, 0 items">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 8h14l-1.2 11.2a2 2 0 0 1-2 1.8H8.2a2 2 0 0 1-2-1.8L5 8z"/><path d="M9 8V6.5a3 3 0 0 1 6 0V8"/></svg>
+        <span class="cart-count" id="cart-count" aria-hidden="true">0</span>
+      </button>
+      <button class="icon-btn menu-toggle" type="button" data-action="toggle-menu" id="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile" hidden>
+    <div class="wrap mobile-nav__list">
+      <a href="#home" data-action="go-home">Home</a>
+      <a href="#menu" data-action="go-menu">Menu</a>
+      <a href="#cart" data-action="open-cart">Your Order (<span id="mobile-count">0</span>)</a>
+    </div>
+  </nav>
+</header>
+
+<main id="main" tabindex="-1">
+  <noscript><div class="wrap" style="padding:48px 20px">Please turn on JavaScript to see our menu and order online.</div></noscript>
+</main>
+
+<footer class="site-footer" id="footer"></footer>
+<div id="floating"></div>
+<div class="toast-region" id="toast-region" aria-live="polite"></div>
+<div id="overlays"></div>
+
+<script src="js/config.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
